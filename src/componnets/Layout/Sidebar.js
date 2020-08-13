@@ -7,7 +7,6 @@ function SidebarModule() {
         (visible == true) ? setVisisble(false) : setVisisble(true);
     }
     return (
-
         <Sidebar.Pushable as={Segment} style={{ overflow: 'hidden' }}>
             <Sidebar
                 as={Menu}
@@ -36,14 +35,12 @@ function SidebarModule() {
                 <Button onClick={visiChange} icon basic>
                     <Icon name='angle left' />
                 </Button>
-
                 <Segment basic>
                     <Header as='h3'>Application Content</Header>
                     <Image src='/images/wireframe/paragraph.png' />
                 </Segment>
             </Sidebar.Pusher>
         </Sidebar.Pushable>
-
     )
 }
 

@@ -1,11 +1,11 @@
 import React from 'react';
-import Header1 from "./Header1";
+import NavBar from "./NavBar";
 import Sidebar from "./Sidebar"
 
 function Layout() {
     return (
         <>
-            <Header1 />
+            <NavBar />
             <Sidebar />
         </>
 

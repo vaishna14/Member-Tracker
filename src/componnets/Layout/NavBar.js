@@ -1,6 +1,6 @@
 import React from 'react'
 
-function header1() {
+function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <a className="navbar-brand" href="/">Member Tracking App</a>
@@ -33,4 +33,4 @@ function header1() {
     )
 }
 
-export default header1
+export default NavBar
