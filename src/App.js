@@ -4,13 +4,14 @@ import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-d
 import Main from "./componnets/Board/Main";
 import Login from "./componnets/login/login";
 import Signup from "./componnets/login/signup";
+import Layout from "./componnets/Layout/Layout"
 
 const App = () => {
   return (
     <Router>
       <Switch>
       <Route path="/" exact>
-        <Main />
+        < Layout/>
       </Route>
       <Route path="/login" exact>
         <Login />
